@@ -1,7 +1,9 @@
 <template>
-<navbar />
- <router-view />
- </template>
+  <section class="h-screen">
+    <router-view />
+    <navbar />
+  </section>
+</template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
